@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Sticky Footer</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <style type="text/css">
+        html {
+            position: relative;
+            min-height: 100%;
+            margin: 0;
+            padding: 0;
+        }
+        body {
+            margin: 0 0 100px;
+            padding: 0;
+            font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+        }
+        .sticky-header {
+            height: 100px;
+            background: rgba(0,0,0,.7);
+            text-align: center;
+            color: rgb(255,255,255);
+            line-height: 100px;
+            position: fixed;
+            top: 0;
+            width: 100%;
+        }
+        .main-content {
+            padding-top: 100px;
+        }
+        .sticky-footer {
+            position: absolute;
+            bottom: 0;
+            width: 100%;
+            text-align: center;
+            background: rgba(0,0,0,.7);
+            height: 100px;
+            color: rgb(255,255,255);
+            line-height: 100px;
+        }
+        h1, h2 {
+            margin: 0;
+            padding: 0;
+        }
+    </style>
+</head>
+<body>
+<header class="sticky-header">
+    <h1>I'm a sticky header</h1>
+</header>
+
+<main class="main-content">
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce fringilla, quam at vestibulum tempus, purus metus blandit dolor, vestibulum egestas velit dolor id quam. Suspendisse porta magna dapibus iaculis consequat. Maecenas varius laoreet leo in tempus. Nunc a massa rutrum, elementum turpis ac, molestie neque. Etiam et varius lorem, a consectetur mauris. Duis vitae erat eu velit rhoncus vulputate eu nec diam. Curabitur diam lorem, tristique ultricies diam pellentesque, mattis suscipit nunc. Donec egestas leo vel iaculis ultricies. Proin vehicula enim eu nunc pulvinar, ut mattis nisl egestas. Vivamus bibendum, mi vitae scelerisque vehicula, lorem felis fermentum felis, ac pharetra est tortor nec nibh.</p>
+    <p>Nam elementum varius lorem, ac condimentum eros tincidunt at. Cras pellentesque, lectus tristique consequat hendrerit, diam mauris tempor velit, in vehicula lectus purus ut mauris. Maecenas auctor imperdiet nisi sed laoreet. Proin dignissim ex odio, id auctor ante dapibus vel. Pellentesque dui risus, dictum in lorem et, scelerisque vehicula justo. Duis auctor, augue quis varius scelerisque, felis dui hendrerit sapien, ac mattis velit tortor nec nulla. Nulla facilisi. Vestibulum sed magna et sem bibendum bibendum in maximus massa.</p>
+    <p>Donec justo felis, lacinia quis sapien eu, eleifend fringilla tortor. Nulla interdum semper urna, at commodo dui egestas vel. Ut tempor enim vel justo venenatis, eu laoreet metus blandit. Mauris cursus ut tortor id feugiat. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Suspendisse pretium arcu leo, at egestas ante condimentum eget. Donec ac urna ut eros malesuada commodo. Fusce feugiat nulla nisl, ac cursus erat posuere non. Aliquam at fermentum diam. Proin molestie nisi vitae interdum placerat. Vestibulum pulvinar commodo maximus. Aliquam finibus faucibus dapibus.</p>
+    <p>Maecenas eget varius sem, et pulvinar justo. Quisque vulputate, nisl at mattis gravida, sem neque sollicitudin nisi, vel dignissim ligula lacus quis est. Vivamus egestas ut nisi sit amet aliquam. Proin vel mi convallis, egestas dui ut, porttitor ante. Etiam malesuada eget lectus et facilisis. Nulla mauris est, luctus in odio sit amet, dapibus interdum urna. Nunc vulputate nulla purus, sed commodo magna dictum at. Mauris ornare viverra erat sit amet condimentum. Nam condimentum eu nibh sit amet placerat.</p>
+    <p>Morbi eleifend, leo quis elementum tincidunt, libero dolor auctor ligula, cursus commodo ligula lorem eget lorem. Aenean nunc leo, porttitor nec luctus eu, scelerisque in ligula. Nulla facilisi. Praesent non leo euismod, feugiat felis sit amet, mattis nibh. Mauris consectetur ante id faucibus pulvinar. In hac habitasse platea dictumst. Aliquam luctus sapien et lobortis dignissim. Integer fringilla turpis nisi, vel posuere justo dignissim nec. Quisque malesuada dui vitae elit dignissim, eu ornare elit ornare. Nullam in convallis risus. Vivamus id lacus non nisl convallis congue sit amet et orci. Donec id commodo augue. Curabitur tincidunt auctor turpis. Aenean euismod posuere quam tincidunt pulvinar. Integer cursus ante id mollis efficitur. Integer ac purus arcu.</p>
+</main>
+
+<footer class="sticky-footer">
+    <h2>I'm a sticky footer - Resize the height and watch me stick to the bottom of the viewport until I hit the content.</h2>
+</footer>
+</body>
+</html>
